@@ -15,7 +15,9 @@ public class Monday_Talks {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
     Peliculas Peliculas_Chidas = new Peliculas();
+
      
      Peliculas_Chidas = null;
      
@@ -28,7 +30,7 @@ public class Monday_Talks {
   
         int random =  (int)(Math.random() * Peliculas_Chidas.getPeliculas().size());
         System.out.println("La pelicula más chida es " + Peliculas_Chidas.getPeliculas().get(random) );
-        
+
          
     
     }
