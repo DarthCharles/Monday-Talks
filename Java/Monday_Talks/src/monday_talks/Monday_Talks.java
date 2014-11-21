@@ -18,9 +18,7 @@ public class Monday_Talks {
 
     Peliculas Peliculas_Chidas = new Peliculas();
 
-     
-     Peliculas_Chidas = null;
-     
+    
         for (int i = 0; i < Peliculas_Chidas.getPeliculas().size(); i++) {
             System.out.println(Peliculas_Chidas.getPeliculas().get(i + 1));
         }
