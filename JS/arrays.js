@@ -23,4 +23,5 @@ var e = [];
 e['dog'] = 'dog';
 e['cat'] = 'cat';
 e['duck'] = 'duck';
-console.log(e);
+e[0] = 'duck';
+console.log(e, e.length);
